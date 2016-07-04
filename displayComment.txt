@@ -1,0 +1,7 @@
+#oracle
+#select * from user_col_comments where comments is not null and table_name='company_user_relationship'
+
+#mysql
+
+select table_name ,Column_name,column_comment from information_schema.columns where table_schema = 'loan'  #表所在数据库
+and table_name = 'loan_apply_result' ; #你要查的表
